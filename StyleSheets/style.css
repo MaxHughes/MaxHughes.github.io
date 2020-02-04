@@ -1,0 +1,140 @@
+/* MAIN SKIN */
+
+#body, #html{
+	height: 100%;
+}
+
+.container .nav .nav-item a.nav-link {
+	color:white;
+	text-shadow: 0px 0px 10px #000;
+}
+.container .nav .nav-item a.nav-link:active {
+	margin-top:3px;
+	margin-bottom:-3px;
+	color: #eee;
+}
+
+
+/* Bar */
+
+.hundredbar{
+	background-color: #3232a2;
+	position: relative;
+	padding: 35px 0;
+	font-family: 'Anton', sans-serif;
+	text-shadow: 0px 0px 20px #000;
+
+	
+}
+
+.hundredbar .onehundred span {
+	color: #fff;
+	font-size: 180px
+}
+
+.hundredbar .threewords{
+	color: #fff;
+	font-size: 40px;
+}
+
+
+/* About Us */
+
+#aboutus.aboutus{
+	background-image:  url("/Images/Vision1.png");
+	height: 800px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* CUSTOM */
+
+#carousel.carousel{
+	object-fit:cover;
+}
+
+.carousel-item img, .oldhouseimg img{ 
+	height:80vh;
+}
+
+.py-14 {
+	padding: 14% 0;
+}
+
+.btn-startnow{
+	background-color: #fff;
+	border: 2px solid #343a40;
+}
+
+.btn.btn-startnow:active {
+	margin-top:3px;
+	margin-bottom:-3px;
+	background-color: #ddd;
+}
+
+.outline {
+	color: #fff;
+	text-shadow: #000 1px 0px 1px, #000 0px 1px 1px, #000 1px 1px 1px, #000 -1px 0px 1px, #000 -1px -1px 1px, #000 0px -1px 1px, #000 0px 0px 1px;
+	-webkit-font-smoothing: antialiased;
+}
+
+a.outline:hover{
+	color:#fff;
+	text-decoration: none;
+}
+
+a.outline:active {
+	padding-top:3px;
+	padding-bottom:-3px;
+	color: #eee;
+}
+
+.h1.extralarge {
+	font-size: 3.5rem!important;
+}
+
+a.h1.outline.booknow:focus {
+	color: #eee;
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+/* ANIMATION */
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 0.6;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 0.6;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
