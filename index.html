@@ -19,26 +19,16 @@
 <body>
 	<header>
 		
-		<div class="container-fluid p-0 position-absolute" >
-			<div id="carousel" class="carousel slide w-100" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="/Images/house1.jpg" class="d-block w-100" />
-					</div>
-					<div class="carousel-item">
-						<img src="/Images/house2.jpg" class="d-block w-100" />
-					</div>
-					<div class="carousel-item">
-						<img src="/Images/house3.jpg" class="d-block w-100" />
-					</div>
-				</div>
-			</div> <!-- End of Carousel -->
-		 </div>  <!-- End of Container-fluid -->
+		<div id="housecontainer" class="container-fluid p-0 position-absolute">
+			<div class=" ">
+				<img id="houseimg" class="w-100">
+			</div>
+		</div>
 		
 		<!-- Navbar -->
 		<div class="container">
 			<div class="py-4">
-				<ul class="nav justify-content-end position-sticky">
+				<ul class="nav justify-content-end position-sticky d-none d-sm-flex">
 					<li class="nav-item">
 						<a class="nav-link h4" href="/">Home</a>
 					</li>
@@ -59,35 +49,52 @@
 		</div> <!-- End of Container -->
 	</header>
 
-	<div class="py-14"></div>
+	<div class="housepadding"></div>
 
 	<div id="booknow" class="pb-4">
 		<div class="d-flex justify-content-center">
-			<div class="position-relative">
+			<div class="position-relative text-center">
 				<a class="h1 extralarge outline booknow" href="">Book Your Inspection Now</a>
 			</div>
 		</div>
-	</div>
-	
-	<div id="100bar" class="hundredbar">
-		<div class="container">
-			<div class="d-flex justify-content-center">
-				<div class="onehundred col-xs-6 pr-4">
-					<span>100%</span>
-				</div>
-				<div class="d-flex flex-wrap align-content-center">
-					<div class="threewords col-xs-6 ">
-						<span>Confidential</span> <br />
-						<span>Secure</span> <br />
-						<span>Trustworthy</span>
+		</div>
+
+		<div id="100bar" class="hundredbar ">
+			<div class="container d-none d-sm-block">
+				<div class="d-flex justify-content-center">
+					<div class="row">
+						<div class="onehundred col-xs-6 pr-4">
+							<span>100%</span>
+						</div>
+						<div class="d-flex flex-wrap align-content-center col-xs-6">
+							<div class="threewords">
+								<span>Confidential</span> <br />
+								<span>Secure</span> <br />
+								<span>Trustworthy</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+			<div class="container d-xs-block d-sm-none">
+				<div class="threewords-small p-4">
+					<span>100% Confidential</span> <br />
+					<span>100% Secure</span> <br />
+					<span>100% Trustworthy</span>
+				</div>
+			</div>
 		</div>
-	</div>
 
-	<div id="aboutus" class="aboutus">
 
-	</div>
 
+
+		<div id="aboutus" class="aboutus">
+			<div class="container py-5">
+				<h1 class="outline">About Us</h1>
+				<p class="outline aboutus-text">
+					We are London and Essex Vacant, we visit your empty property within London or Essex and ensure your property has not been broken into or vandalised making sure it is fully secure. We will need to access the property to check all the rooms for any water/fire damage, insect infestation, mould and anything that can devalue it. If you have any requests, like mowing the grass, cleaning the house, fixing water/fire damage or removing infestations, these will be outsourced and priced separately. We will be present to overlook the outsource company while the work is carried out at your property.
+				</p>
+			</div>
+		</div>
+	
 </body></html>
