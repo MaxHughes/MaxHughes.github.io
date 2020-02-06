@@ -110,8 +110,6 @@ a.outline:active {
 
 a.h1.outline.booknow:focus {
 	color: #eee;
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 a.h1.outline.booknow:hover {
