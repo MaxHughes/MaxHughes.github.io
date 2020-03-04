@@ -1,2 +1,89 @@
-test
-test
+<!doctype html>
+
+<html lang="en">
+	<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- JS -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="StyleSheets/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+
+		<div id="housecontainer" class="container-fluid p-0 position-absolute">
+			<img id="" class="w-100">
+		</div>
+
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="Images/LaEvacant.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarMain">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link h4" href="/">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link h4" href="/Book-Now">Book Now</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link h4" href="/About-Us">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link h4" href="/News">News</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link h4" href="/Contact-Us">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="mt-5">
+		<div class="container">
+			<h1>Contact Us</h1>
+
+			<div class="contact-form">
+				<form id="contact-form" method="post" action="https://formspree.io/xlenjalo">
+
+					<div class="form-group">
+						<label for="textbox_ContactUs_Name">Name: *</label>
+						<input name="name" type="text" id="textbox_ContactUs_Name" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label for="textbox_ContactUs_Email">Email: *</label>
+						<input name="email" type="text" id="textbox_ContactUs_Email" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label for="textbox_ContactUs_Subject">Subject: *</label>
+						<input name="subject" type="text" id="textbox_ContactUs_Subject" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label for="textbox_ContactUs_Message">Message: *</label>
+						<textarea name="message" rows="4" id="textbox_ContactUs_Message" class="form-control" required></textarea>
+					</div>
+
+					<div class="my-3">
+						<button class="btn btn-primary" type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+
+</body></html>
